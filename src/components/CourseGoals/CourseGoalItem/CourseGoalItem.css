@@ -1,8 +1,14 @@
 .goal-item {
+  text-align: center;
   margin: 1rem 0;
-  background: #8b005d;
+  font-weight: bold;
+  background: #8e7a87;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  color: white;
+  color: rgba(21, 14, 14, 0.818);
   padding: 1rem 2rem;
   cursor: pointer;
+}
+
+.goal-item:hover {
+  background-color: #fad0ec;
 }
