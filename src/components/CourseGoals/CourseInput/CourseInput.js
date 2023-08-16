@@ -10,7 +10,7 @@ const CourseInput = (props) => {
 
   const goalInputChangeHandler = (event) => {
     setEnteredValue(event.target.value);
-    setInputValid(event.target.value !== ""); // Validate based on trimmed value
+    setInputValid(event.target.value.trim() !== ""); // Validate based on trimmed value
   };
 
   const formSubmitHandler = (event) => {
